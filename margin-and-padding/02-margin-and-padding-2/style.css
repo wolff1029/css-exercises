@@ -9,19 +9,28 @@ body {
   margin: 16px auto;
 }
 
-.title {
+.title, .content, .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  margin: 8px;
+
 }
 
-.content {
+/* .content {
   background: #e3f4ff;
-}
+  
+} */
 
 .button-container {
-  background: #e3f4ff;
+  margin: 8px auto;
+  text-align: center;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  margin: 1px auto;
+  padding: 8px 24px 8px 24px;
+
 }
